@@ -42,9 +42,9 @@ gsap.fromTo('h1', {opacity: 2 }, {
     }
 });
 
-gsap.fromTo('.img-grid', {opacity: 0 }, {
-    opacity: 1,
-    duration: 5,
-    delay: 2
-});
+// gsap.fromTo('.img-grid', {opacity: 0 }, {
+//     opacity: 1,
+//     duration: 5,
+//     delay: 2
+// });
   
