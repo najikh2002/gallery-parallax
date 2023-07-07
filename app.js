@@ -2,8 +2,6 @@ $(document).ready(function() {
     $(window).scroll(() => {
         var wScroll = $(this).scrollTop();
 
-        console.log(wScroll)
-    
         $('.title').css({
             'transform' : 'translate(0px,'+ wScroll/2 +'px)'
         });
