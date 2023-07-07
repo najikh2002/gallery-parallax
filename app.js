@@ -5,7 +5,7 @@ $(document).ready(function() {
         console.log(wScroll)
     
         $('.title').css({
-            'transform' : 'translate(0px,'+ wScroll/2 +'px)'
+            'transform' : 'translate(0px,'+ wScroll/3 +'px)'
         });
     });
 
