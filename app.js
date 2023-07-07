@@ -1,6 +1,8 @@
 $(document).ready(function() {
     $(window).scroll(() => {
         var wScroll = $(this).scrollTop();
+
+        console.log(wScroll)
     
         $('.title').css({
             'transform' : 'translate(0px,'+ wScroll/2 +'px)'
@@ -36,7 +38,7 @@ gsap.fromTo('h1', {opacity: 2 }, {
     scrollTrigger: {
         trigger: 'h1',
         start: 'top top',
-        end: '520',
+        end: '420',
         scrub: 1,
     }
 });
