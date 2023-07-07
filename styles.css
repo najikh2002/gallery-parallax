@@ -31,9 +31,9 @@
     position: relative;
     overflow: hidden;
     max-height: 600px;
-    background-size: cover;
-    object-fit: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
   .img-grid {
