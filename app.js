@@ -5,7 +5,7 @@ $(document).ready(function() {
         console.log(wScroll)
     
         $('.title').css({
-            'transform' : 'translate(0px,'+ wScroll/3 +'px)'
+            'transform' : 'translate(0px,'+ wScroll/2.2 +'px)'
         });
     });
 
@@ -42,9 +42,9 @@ gsap.fromTo('h1', {opacity: 2 }, {
     }
 });
 
-// gsap.fromTo('.img-grid', {opacity: 0 }, {
-//     opacity: 1,
-//     duration: 5,
-//     delay: 2
-// });
+gsap.fromTo('.img-grid', {opacity: 0 }, {
+    opacity: 1,
+    duration: 5,
+    delay: 2
+});
   
